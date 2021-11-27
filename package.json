@@ -1,0 +1,23 @@
+{
+  "name": "x2d",
+  "version": "0.0.0",
+  "description": "2D JavaScript/canvas game engine",
+  "main": "serve.js",
+  "scripts": {
+    "dev": "nodemon serve.js"
+  },
+  "author": "Aaron Wright",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SikoSoft/x2d.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SikoSoft/x2d/issues"
+  },
+  "homepage": "https://github.com/SikoSoft/x2d#readme"
+}
