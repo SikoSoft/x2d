@@ -19,12 +19,22 @@ export default class camera extends utilClass {
   draw() {
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
     this.drawBackground();
+    this.drawPlayers();
   }
 
   drawBackground() {
     this.ctx.save();
     this.ctx.fillStyle = this.g.config.theme.background;
     this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+    this.ctx.restore();
+  }
+
+  drawPlayers() {
+    this.ctx.save();
+    this.ctx.fillStyle = '#ff0000';
+    this.g.players.forEach((player) => {
+      this.ctx.fillRect(player.x, player.y, player.w, player.h);
+    });
     this.ctx.restore();
   }
 }

@@ -166,14 +166,6 @@ export default class input {
       : false;
   }
 
-  isLocked(player) {
-    const now = new Date().getTime();
-    if (now < player.animateTo.lineBreak || now < player.animateTo.lineAdd) {
-      return true;
-    }
-    return false;
-  }
-
   process() {
     if (this.keyState[this.keyMap.alt]) {
       if (
