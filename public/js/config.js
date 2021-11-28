@@ -18,9 +18,11 @@ export default class config extends utilClass {
         .then((response) => response.json())
         .then((data) => {
           this.process(data);
+          this.log('loaded config.json');
           resolve();
         })
         .catch(() => {
+          this.log('failed to load config.json');
           reject();
         });
     });

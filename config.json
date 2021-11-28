@@ -1,13 +1,16 @@
 {
-    "server": {
-     "webPort": 8080   
-    },
-    "camera": {
-        "width": 1280,
-        "height": 720
-    },
-    "map": {
-        "x": 64,
-        "y": 64
-    }
+  "server": {
+    "webPort": 8080
+  },
+  "camera": {
+    "width": 1280,
+    "height": 720
+  },
+  "map": {
+    "x": 64,
+    "y": 64
+  },
+  "theme": {
+    "background": "#000000ff"
+  }
 }
