@@ -1,0 +1,28 @@
+{
+  "control": {
+    "keyboard": {
+      "up": 87,
+      "down": 83,
+      "left": 65,
+      "right": 68,
+      "menu": 81,
+      "pause": 80
+    }
+  },
+  "actions": {
+    "play": {
+      "up": "moveUp",
+      "down": "moveDown",
+      "left": "moveLeft",
+      "right": "moveRight",
+      "menu": "toggleMenu",
+      "pause": "togglePause"
+    },
+    "pause": {
+      "pause": "togglePause"
+    },
+    "menu": {
+      "menu": "toggleMenu"
+    }
+  }
+}
